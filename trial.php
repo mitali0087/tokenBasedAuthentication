@@ -7,7 +7,7 @@
 <body>
 
   <script>
-    window.alert(localStorage.token);
+    //window.alert(localStorage.token);
     var tokenVal = localStorage.token;
     $.post("checkToken.php", {token: tokenVal}, function(data,status){
             alert("Data: " + data + "\nStatus: " + status);
