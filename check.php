@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
   if($row["password"] == $psw){
     echo "Password is correct!!";
     $timeStamp = time();
-    echo $timeStamp;
+    //echo $timeStamp;
     echo "<script>
       localStorage.setItem('token', $timeStamp); 
       </script>";
