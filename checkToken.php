@@ -1,9 +1,9 @@
 <?php
 
 $token = (int)$_POST["token"];
-echo $token;
+//echo $token;
 $diff = time() - $token;
-echo $diff;
+//echo $diff;
 if($diff < 1800){
   /*myObject->validity = "Yes";
   myJSON = json_encode(myObject);
